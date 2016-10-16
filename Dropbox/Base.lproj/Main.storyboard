@@ -22,7 +22,7 @@
                                 <frame key="frameInset" minX="111" minY="518" width="167" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="BfJ-kL-ydp" kind="modal" modalTransitionStyle="crossDissolve" id="FTl-hD-AOg"/>
+                                    <segue destination="BfJ-kL-ydp" kind="push" id="FTl-hD-AOg"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -495,6 +495,10 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="Ldw-4G-XoM">
+                        <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="FBd-vv-Czh"/>
                     </connections>
@@ -822,25 +826,34 @@
             <objects>
                 <viewController id="jDD-f8-9Xh" customClass="ViewController" customModule="Dropbox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OdQ-v9-5Hj">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="910"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sign_in3" id="Y09-EN-EqU">
-                                <frame key="frameInset" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qzz-bn-Io3">
                                 <frame key="frameInset" minY="595" width="375" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="settings" id="bxI-mt-rH2">
+                                <frame key="frameInset" width="377" height="910"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Jqr-RH-l7z">
+                                <frame key="frameInset" minX="40" minY="819" width="294" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="modal" modalTransitionStyle="crossDissolve" id="PqJ-Al-f3C"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Settings" id="nwU-Hp-S5W"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="910"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NQe-DC-rdK" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3797" y="2725"/>
+            <point key="canvasLocation" x="3796.5" y="2846"/>
         </scene>
     </scenes>
     <resources>
@@ -876,7 +889,7 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="9JM-fG-yUg"/>
-        <segue reference="wqW-6O-niF"/>
-        <segue reference="auR-JX-atg"/>
+        <segue reference="FBd-vv-Czh"/>
+        <segue reference="l4L-w7-QJO"/>
     </inferredMetricsTieBreakers>
 </document>
