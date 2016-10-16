@@ -1,24 +1,25 @@
 //
-//  ViewController.swift
+//  SignInViewController.swift
 //  Dropbox
 //
-//  Created by Nicholas Naudé on 12/10/2016.
+//  Created by Nicholas Naudé on 16/10/2016.
 //  Copyright © 2016 Nicholas Naudé. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class SignInViewController: ViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    @IBAction func unwindToMenu(segue: UIStoryboardSegue) {}
 }
-

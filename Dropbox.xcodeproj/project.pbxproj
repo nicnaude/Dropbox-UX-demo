@@ -14,6 +14,8 @@
 		4A623C5F1DAF0C38009A1833 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A623C5D1DAF0C38009A1833 /* LaunchScreen.storyboard */; };
 		4A623C6A1DAF0C38009A1833 /* DropboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A623C691DAF0C38009A1833 /* DropboxTests.swift */; };
 		4A623C751DAF0C38009A1833 /* DropboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A623C741DAF0C38009A1833 /* DropboxUITests.swift */; };
+		4A71B45D1DB435B7005C8EC1 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A71B45C1DB435B7005C8EC1 /* TermsViewController.swift */; };
+		4A71B45F1DB4433C005C8EC1 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A71B45E1DB4433C005C8EC1 /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		4A623C701DAF0C38009A1833 /* DropboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A623C741DAF0C38009A1833 /* DropboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropboxUITests.swift; sourceTree = "<group>"; };
 		4A623C761DAF0C38009A1833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A71B45C1DB435B7005C8EC1 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		4A71B45E1DB4433C005C8EC1 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				4A623C541DAF0C38009A1833 /* AppDelegate.swift */,
 				4A623C561DAF0C38009A1833 /* ViewController.swift */,
 				4A623C581DAF0C38009A1833 /* Main.storyboard */,
+				4A71B45C1DB435B7005C8EC1 /* TermsViewController.swift */,
+				4A71B45E1DB4433C005C8EC1 /* SignInViewController.swift */,
 				4A623C5B1DAF0C38009A1833 /* Assets.xcassets */,
 				4A623C5D1DAF0C38009A1833 /* LaunchScreen.storyboard */,
 				4A623C601DAF0C38009A1833 /* Info.plist */,
@@ -262,7 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A71B45F1DB4433C005C8EC1 /* SignInViewController.swift in Sources */,
 				4A623C571DAF0C38009A1833 /* ViewController.swift in Sources */,
+				4A71B45D1DB435B7005C8EC1 /* TermsViewController.swift in Sources */,
 				4A623C551DAF0C38009A1833 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
