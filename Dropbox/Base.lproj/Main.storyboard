@@ -306,6 +306,7 @@
                     </view>
                     <connections>
                         <segue destination="IGS-4N-VGd" kind="modal" identifier="agreeSegue" id="8XT-jY-qf5"/>
+                        <segue destination="tzD-6h-2OB" kind="modal" identifier="showTerms" id="dCc-bZ-Gm1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sRa-gf-75L" sceneMemberID="firstResponder"/>
@@ -1027,11 +1028,11 @@
         <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="tLh-cb-Trb"/>
+        <segue reference="dCc-bZ-Gm1"/>
         <segue reference="2u0-rM-Uvp"/>
         <segue reference="9JM-fG-yUg"/>
         <segue reference="VBA-xz-KDr"/>
         <segue reference="auR-JX-atg"/>
-        <segue reference="bud-XY-tuT"/>
+        <segue reference="8XT-jY-qf5"/>
     </inferredMetricsTieBreakers>
 </document>
