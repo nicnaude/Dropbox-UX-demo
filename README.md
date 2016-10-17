@@ -3,7 +3,7 @@
 
 The purpose of this prototype is to demonstrate the onboarding flow for new and existing Dropbox users. 
 
-**The prototype was designed for iPhone 6, 6s and 7 screens.**
+**The prototype was designed to be demoed on iPhone 6, 6s and 7 screen sizes.**
 
 Time spent: **12 hours**
 
@@ -51,5 +51,6 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 **Challenges encountered during the creation of this prototype:** 
-Text wrapping does not automatically occur on Dropbox’s live terms of service page. I enabled shrinking on the web view to fit more content onto the viewcontroller and to eliminate right to left scrolling for the user.
-I would like to refactor the new user viewcontrollers into a single viewcontroller in code to avoid unnecessary duplication of code. 
+1. Text wrapping does not automatically occur on Dropbox’s live terms of service page. I enabled shrinking on the web view to fit more content onto the viewcontroller and to eliminate right to left scrolling for the user.
+
+2. I would like to refactor the new user viewcontrollers into a single viewcontroller in code to avoid unnecessary duplication of code. 
