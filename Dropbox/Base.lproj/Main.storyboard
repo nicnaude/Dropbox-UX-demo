@@ -598,9 +598,6 @@
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ZiL-zl-pxc">
                                 <frame key="frameInset" minX="64" minY="227" width="247" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="xgY-Hz-3kR" kind="modal" modalTransitionStyle="crossDissolve" id="l4L-w7-QJO"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="LEJ-5b-fFm">
                                 <frame key="frameInset" minY="20" width="128" height="58"/>
@@ -641,9 +638,6 @@
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="MVR-73-GOQ">
                                 <frame key="frameInset" minX="69" minY="223" width="247" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="xgY-Hz-3kR" kind="modal" modalTransitionStyle="crossDissolve" id="auR-JX-atg"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aRj-fZ-v1g">
                                 <frame key="frameInset" minY="405" width="375" height="262"/>
@@ -680,34 +674,6 @@
                 <exit id="XgR-2J-G5G" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3054.5" y="233.5"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="1HC-tG-0AC">
-            <objects>
-                <viewController id="xgY-Hz-3kR" customClass="ViewController" customModule="Dropbox" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="DB8-VK-IYo">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sign_in3" id="Vqx-83-5Ld">
-                                <frame key="frameInset" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="a7C-T7-071">
-                                <frame key="frameInset" minY="595" width="375" height="72"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="ghy-Jz-6rY" kind="modal" modalTransitionStyle="crossDissolve" id="c9K-v8-jfh"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="JrC-hO-PxP"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Cr8-Q3-7T2" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3527.5" y="233.5"/>
         </scene>
         <!--Files-->
         <scene sceneID="glN-JM-6TA">
@@ -992,7 +958,6 @@
         <image name="settings_tab" width="30" height="30"/>
         <image name="sign_in1" width="320" height="568"/>
         <image name="sign_in2" width="320" height="568"/>
-        <image name="sign_in3" width="320" height="568"/>
         <image name="welcome1" width="320" height="568"/>
         <image name="welcome2" width="320" height="568"/>
         <image name="welcome3" width="320" height="568"/>
@@ -1003,11 +968,9 @@
         <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="dCc-bZ-Gm1"/>
-        <segue reference="2u0-rM-Uvp"/>
-        <segue reference="9JM-fG-yUg"/>
-        <segue reference="VBA-xz-KDr"/>
-        <segue reference="auR-JX-atg"/>
         <segue reference="8XT-jY-qf5"/>
+        <segue reference="2u0-rM-Uvp"/>
+        <segue reference="VBA-xz-KDr"/>
+        <segue reference="dCc-bZ-Gm1"/>
     </inferredMetricsTieBreakers>
 </document>
