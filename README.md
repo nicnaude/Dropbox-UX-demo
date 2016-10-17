@@ -1,11 +1,10 @@
 # Dropbox-UX-demo
-CodePath: Rapid prototyping of Dropbox key UX features
-Project 1 – Dropbox rapid prototype
+### CodePath: Rapid prototyping of Dropbox key UX features
 
 The purpose of this prototype is to demonstrate the onboarding flow for new and existing users. 
-The prototype was designed for iPhone 6, 6s and 7 screens.
+**The prototype was designed for iPhone 6, 6s and 7 screens.**
 
-Time spent: 12 hours
+Time spent: **12 hours**
 
 ###Prototype Features
 Splash screen and welcome message. 
