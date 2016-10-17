@@ -19,19 +19,20 @@ class NewAccount4ViewController: ViewController {
         let optionMenu = UIAlertController(title: nil, message: "Before you can complete your registration, you must accept the Dropbox Terms of Service.", preferredStyle: .actionSheet)
         
         // 2
-        let deleteAction = UIAlertAction(title: "I Agree", style: .default, handler: {
+        let agreeAction = UIAlertAction(title: "I Agree", style: .default, handler: {
             (alert: UIAlertAction!) -> Void in
             print("I Agree")
+            self.performSegue(withIdentifier: "agreeSegue", sender: self)
         })
-        let saveAction = UIAlertAction(title: "View Terms", style: .default, handler: {
+        let termsAction = UIAlertAction(title: "View Terms", style: .default, handler: {
             (alert: UIAlertAction!) -> Void in
             print("View Terms")
+            self.performSegue(withIdentifier: "showTerms", sender: self)
         })
-        
-        
+               
         // 4
-        optionMenu.addAction(deleteAction)
-        optionMenu.addAction(saveAction)
+        optionMenu.addAction(agreeAction)
+        optionMenu.addAction(termsAction)
         
         // 5
         self.present(optionMenu, animated: true, completion: nil)
