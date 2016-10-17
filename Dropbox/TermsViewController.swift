@@ -10,12 +10,15 @@ import UIKit
 
 class TermsViewController: ViewController {
 
+    @IBOutlet weak var webView: UIWebView!
     @IBOutlet weak var doneButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+     let url = NSURL (string: "https://www.dropbox.com/terms2014");
+     let requestObj = NSURLRequest(url: url! as URL);
+     webView.loadRequest(requestObj as URLRequest);
 
-        // Do any additional setup after loading the view.
     }
     
     @IBAction func onDoneButtonTapped(_ sender: AnyObject) {
