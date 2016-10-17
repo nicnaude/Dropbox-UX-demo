@@ -971,31 +971,6 @@
             </objects>
             <point key="canvasLocation" x="5765" y="-695"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="bNj-W3-m6k">
-            <objects>
-                <viewController id="cy5-Lu-xcr" customClass="ViewController" customModule="Dropbox" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="d3R-FL-tef">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcome1" id="Qi1-NS-CtK">
-                                <frame key="frameInset" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ztJ-mS-jRV">
-                                <frame key="frameInset" minX="111" minY="518" width="167" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="0.95605832339999997" green="0.98017710449999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="TEq-re-ber"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Fhr-RX-jfg" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="623" y="904"/>
-        </scene>
     </scenes>
     <resources>
         <image name="create1" width="320" height="568"/>
