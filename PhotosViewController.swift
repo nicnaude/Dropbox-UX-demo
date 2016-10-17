@@ -1,5 +1,5 @@
 //
-//  SettingsViewController.swift
+//  PhotosViewController.swift
 //  Dropbox
 //
 //  Created by Nicholas Naudé on 16/10/2016.
@@ -8,11 +8,14 @@
 
 import UIKit
 
-class SettingsViewController: ViewController {
+class PhotosViewController: ViewController {
+    
+    @IBOutlet weak var myScrollView: UIScrollView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        scrollView.contentSize = CGSize(width: 375, height: 1200)
+        myScrollView.contentSize = CGSize(width: 375, height: 1200)
     }
 }

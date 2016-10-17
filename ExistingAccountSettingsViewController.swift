@@ -1,5 +1,5 @@
 //
-//  existingAccountSettingsViewController.swift
+//  ExistingAccountSettingsViewController.swift
 //  Dropbox
 //
 //  Created by Nicholas Naudé on 16/10/2016.
@@ -8,9 +8,8 @@
 
 import UIKit
 
-class existingAccountSettingsViewController: ViewController {
-    
-    @IBOutlet weak var scrollView: UIScrollView!
+class ExistingAccountSettingsViewController: ViewController {
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
