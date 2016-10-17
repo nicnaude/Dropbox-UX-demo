@@ -81,6 +81,13 @@
                                     <segue destination="Okk-ut-Fll" kind="push" id="ZhD-YP-JEG"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="QTG-zp-w9W">
+                                <frame key="frameInset" minX="144" minY="542" width="90" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="995-ud-dLP" kind="push" id="aK8-qC-0H3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -88,7 +95,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zvH-3a-Qi9" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1500" y="-235"/>
+            <point key="canvasLocation" x="1499.5" y="-235.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="0tW-fI-Q3u">
@@ -149,7 +156,7 @@
                                 <frame key="frameInset" minX="282" minY="20" width="93" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="XqC-QV-tPs" kind="modal" id="i0J-kl-iop"/>
+                                    <segue destination="IGS-4N-VGd" kind="modal" id="0bO-xi-Pg2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9pS-4B-8QY">
@@ -191,7 +198,7 @@
                                 <frame key="frameInset" minX="282" minY="20" width="93" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="XqC-QV-tPs" kind="modal" id="H1V-Nr-djd"/>
+                                    <segue destination="IGS-4N-VGd" kind="modal" id="Fv9-gA-h3A"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="daf-Md-x9q">
@@ -234,7 +241,7 @@
                                 <frame key="frameInset" minX="282" minY="20" width="93" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="XqC-QV-tPs" kind="modal" id="Kj3-Pp-Vur"/>
+                                    <segue destination="IGS-4N-VGd" kind="modal" id="Rmn-ym-TU0"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lcq-ry-HuP">
@@ -269,7 +276,7 @@
                                 <frame key="frameInset" minX="282" minY="20" width="93" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="XqC-QV-tPs" kind="modal" id="Yqf-ZA-hgZ"/>
+                                    <segue destination="IGS-4N-VGd" kind="modal" id="GU5-lt-3Zx"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="IUF-Uc-3cp">
@@ -375,28 +382,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="erZ-qU-uia" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4984" y="1052"/>
-        </scene>
-        <!--Tab Bar Controller-->
-        <scene sceneID="WDv-vP-tTg">
-            <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="XqC-QV-tPs" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" selectionIndicatorImage="files_tab" id="oIs-TF-5mE">
-                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    </tabBar>
-                    <connections>
-                        <segue destination="b7x-xJ-dHB" kind="relationship" relationship="viewControllers" id="qne-p9-SDM"/>
-                        <segue destination="Xid-H0-NDh" kind="relationship" relationship="viewControllers" id="hcc-mL-Odk"/>
-                        <segue destination="lAZ-ZP-cRV" kind="relationship" relationship="viewControllers" id="FCG-aB-ZH6"/>
-                        <segue destination="79N-bO-aIr" kind="relationship" relationship="viewControllers" id="gaU-LE-LhE"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="z8C-Cd-upm" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="5695" y="-699"/>
+            <point key="canvasLocation" x="4881" y="1052"/>
         </scene>
         <!--Photos-->
         <scene sceneID="1Je-gD-SgU">
@@ -474,32 +460,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pWH-p9-o5d" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7055.5" y="1192.5"/>
-        </scene>
-        <!--Files-->
-        <scene sceneID="S8V-wn-Bma">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="b7x-xJ-dHB" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Files" image="files_tab" selectedImage="files_tab" id="1hV-aD-RZd"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dRJ-70-BrW">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="7od-ij-Lmc" kind="relationship" relationship="rootViewController" id="tGi-My-u4E"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="min-LX-nBc" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4984" y="257"/>
+            <point key="canvasLocation" x="6469" y="1193"/>
         </scene>
         <!--Photos-->
         <scene sceneID="7Cd-BU-m67">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Xid-H0-NDh" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Photos" image="photos_tab" selectedImage="photos_tab" id="jHv-uL-sTL"/>
+                    <tabBarItem key="tabBarItem" title="Photos" image="photos_tab" id="jHv-uL-sTL"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="uay-g2-cj2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -518,7 +485,7 @@
         <scene sceneID="lbC-uo-iSa">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lAZ-ZP-cRV" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Favorites" image="favorites_tab" selectedImage="favorites_tab" id="4tu-Fj-Pbt"/>
+                    <tabBarItem key="tabBarItem" title="Favorites" image="favorites_tab" id="4tu-Fj-Pbt"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="3ug-2M-1co">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -537,7 +504,7 @@
         <scene sceneID="VAV-2Z-l7x">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="79N-bO-aIr" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Settings" image="settings_tab" selectedImage="settings_tab" id="m6S-FR-x7E"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="settings_tab" id="m6S-FR-x7E"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="nhg-pv-kfe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -942,6 +909,45 @@
             </objects>
             <point key="canvasLocation" x="3796.5" y="2846"/>
         </scene>
+        <!--Files-->
+        <scene sceneID="FgY-ii-xYv">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZeK-nl-kai" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Files" image="files_tab" id="G6V-SW-Uql"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8Bt-25-zW3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="7od-ij-Lmc" kind="relationship" relationship="rootViewController" id="58Y-4n-n7G"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IlX-1F-6zf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4881" y="256"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="iNY-y6-KId">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="IGS-4N-VGd" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Kp0-TZ-8lr">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="ZeK-nl-kai" kind="relationship" relationship="viewControllers" id="X7k-QH-eiV"/>
+                        <segue destination="Xid-H0-NDh" kind="relationship" relationship="viewControllers" id="q78-gZ-7Dv"/>
+                        <segue destination="lAZ-ZP-cRV" kind="relationship" relationship="viewControllers" id="Fs1-q4-L4I"/>
+                        <segue destination="79N-bO-aIr" kind="relationship" relationship="viewControllers" id="Pep-LA-Z9u"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SOm-4G-YmX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5717" y="-694"/>
+        </scene>
     </scenes>
     <resources>
         <image name="create1" width="320" height="568"/>
@@ -977,8 +983,9 @@
     <inferredMetricsTieBreakers>
         <segue reference="c9K-v8-jfh"/>
         <segue reference="l4L-w7-QJO"/>
-        <segue reference="FBd-vv-Czh"/>
+        <segue reference="aK8-qC-0H3"/>
+        <segue reference="PqJ-Al-f3C"/>
         <segue reference="fgc-ok-XCi"/>
-        <segue reference="Yqf-ZA-hgZ"/>
+        <segue reference="GU5-lt-3Zx"/>
     </inferredMetricsTieBreakers>
 </document>
