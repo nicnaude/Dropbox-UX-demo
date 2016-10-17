@@ -53,4 +53,4 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 **Challenges encountered during the creation of this prototype:** 
 
 1. Text wrapping does not automatically occur on Dropbox’s live terms of service page. I enabled shrinking on the web view to fit more content onto the viewcontroller and to eliminate right to left scrolling for the user.
-2. I would like to refactor the new user viewcontrollers into a single viewcontroller in code to avoid unnecessary duplication of code. 
+2. I would like to refactor the new user viewcontrollers into a single viewcontroller to avoid unnecessary duplication of code. 
