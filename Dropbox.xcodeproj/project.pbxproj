@@ -16,6 +16,8 @@
 		4A623C751DAF0C38009A1833 /* DropboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A623C741DAF0C38009A1833 /* DropboxUITests.swift */; };
 		4A71B45D1DB435B7005C8EC1 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A71B45C1DB435B7005C8EC1 /* TermsViewController.swift */; };
 		4A71B45F1DB4433C005C8EC1 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A71B45E1DB4433C005C8EC1 /* SignInViewController.swift */; };
+		4A71B4611DB44F96005C8EC1 /* existingAccountSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A71B4601DB44F96005C8EC1 /* existingAccountSettingsViewController.swift */; };
+		4A71B4631DB45DC0005C8EC1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A71B4621DB45DC0005C8EC1 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		4A623C761DAF0C38009A1833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A71B45C1DB435B7005C8EC1 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 		4A71B45E1DB4433C005C8EC1 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		4A71B4601DB44F96005C8EC1 /* existingAccountSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = existingAccountSettingsViewController.swift; sourceTree = "<group>"; };
+		4A71B4621DB45DC0005C8EC1 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 		4A623C481DAF0C38009A1833 = {
 			isa = PBXGroup;
 			children = (
+				4A71B4621DB45DC0005C8EC1 /* SettingsViewController.swift */,
+				4A71B4601DB44F96005C8EC1 /* existingAccountSettingsViewController.swift */,
 				4A623C531DAF0C38009A1833 /* Dropbox */,
 				4A623C681DAF0C38009A1833 /* DropboxTests */,
 				4A623C731DAF0C38009A1833 /* DropboxUITests */,
@@ -272,6 +278,8 @@
 				4A623C571DAF0C38009A1833 /* ViewController.swift in Sources */,
 				4A71B45D1DB435B7005C8EC1 /* TermsViewController.swift in Sources */,
 				4A623C551DAF0C38009A1833 /* AppDelegate.swift in Sources */,
+				4A71B4611DB44F96005C8EC1 /* existingAccountSettingsViewController.swift in Sources */,
+				4A71B4631DB45DC0005C8EC1 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
