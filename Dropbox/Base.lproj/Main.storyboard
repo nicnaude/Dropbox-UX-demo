@@ -32,7 +32,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="522" y="-236"/>
+            <point key="canvasLocation" x="563" y="-236"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="OoZ-Js-WVl">
@@ -60,7 +60,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="otV-ge-ahQ" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1024" y="-235"/>
+            <point key="canvasLocation" x="1045" y="-236"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="0Gv-1c-fTY">
@@ -531,7 +531,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D6H-Ae-nMu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3" y="-236"/>
+            <point key="canvasLocation" x="83" y="-236"/>
         </scene>
         <!--Sign In View Controller-->
         <scene sceneID="znR-fc-TDo">
@@ -968,9 +968,9 @@
         <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="8XT-jY-qf5"/>
-        <segue reference="2u0-rM-Uvp"/>
         <segue reference="VBA-xz-KDr"/>
-        <segue reference="dCc-bZ-Gm1"/>
+        <segue reference="2u0-rM-Uvp"/>
+        <segue reference="kex-wT-i1K"/>
+        <segue reference="310-7x-VMU"/>
     </inferredMetricsTieBreakers>
 </document>
